@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  width: 94%;
+  margin: 4.375rem auto;
+}
+
+input {
+  width: 100%;
+  height: 8.75rem;
+  background-color: #292938;
+  font-size: 6.25rem;
+  color: white;
+  border: none;
+  padding-left: 0.3125rem;
+  outline: none;
+}
+
+#container {
+  width: 100%;
+  margin-top: 0.625rem;
+  display: -webkit-flex;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.btn {
+  width: 25%;
+  padding: 0.25rem 0;
+  text-align: center;
+  background-color: #f5923e;
+  border: 1px solid black;
+  outline: none;
+  color: white;
+  font-size: 3.75rem;
+  transition: 1s;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: blue;
+}
+
+.btn-gray {
+  background-color: #e0e0e0;
+  color: black;
+}
+
+.btn-green {
+  background-color: green;
+  color: black;
+}
+
+.btn-red {
+  background-color: red;
+  color: black;
+}
